@@ -1,0 +1,69 @@
+body{
+    margin: 2em;
+}
+nav{
+    padding: 0 50%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li a{
+    padding: 1em;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration-color: aquamarine;
+    color: aqua;
+    background-color: beige;
+}
+header{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://via.placeholder.com/1920x1080.png");
+}
+h2{
+    text-align: center;
+    margin-left: 5em;
+    font-size: large;
+}
+#main{
+    margin: 2%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.uno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dos{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dos ul li .first{
+    color: brown;
+}
+.dos ul li .second{
+    color: red;
+}
+.dos ul li .third{
+    color: violet;
+}
+.tres{
+    padding-left: 20px;
+    justify-content: space-between;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(127, 255, 159);
+}
